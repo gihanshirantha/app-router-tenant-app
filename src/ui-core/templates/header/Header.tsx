@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import { SignInButton, UserButton, useAuth, useUser } from "@clerk/clerk-react";
 import {} from "@clerk/clerk-react";
@@ -24,9 +23,9 @@ import {
   AlertDialogTrigger,
 } from "../../components";
 import { CartItem } from "../../components";
-import { useCart } from "@/context/CartContext";
 import Link from "next/link";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { useCart } from "@/context/CartContext";
 
 const Header: React.FC = () => {
   const { userId } = useAuth();

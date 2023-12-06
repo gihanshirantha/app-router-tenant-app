@@ -1,5 +1,4 @@
 "use client";
-
 import { getAllProducts } from "@/Services/Product/product.service";
 import { HomeTemplate } from "@/ui-core";
 import React from "react";
