@@ -25,7 +25,10 @@ export default function RootLayout({
       <body className={inter.className}>
         <ReactQueryProvider>
           <ClerkProvider publishableKey={clerkPubKey}>
-            <CartProvider>{children}</CartProvider>
+            <CartProvider>
+              <Header />
+              {children}
+            </CartProvider>
           </ClerkProvider>
         </ReactQueryProvider>
       </body>

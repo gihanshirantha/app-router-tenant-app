@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { SignInButton, UserButton, useAuth, useUser } from "@clerk/clerk-react";
 import {} from "@clerk/clerk-react";
