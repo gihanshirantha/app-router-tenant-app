@@ -4,11 +4,11 @@
 
 @layer base {
   :root {
-    --header: 0, 0%, 100%;
-    --header-foreground: 0, 0%, 0%, 1;
-
     --mens: 166, 70%, 51%, 1;
     --womens: 336, 100%, 88%;
+
+    --header: 0, 0%, 100%;
+    --header-foreground: 0, 0%, 0%, 1;
 
     /* Default background color of <body />...etc {White} */
     --background: 0, 0%, 100%, 1;
